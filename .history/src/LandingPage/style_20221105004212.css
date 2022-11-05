@@ -86,17 +86,17 @@ header button {
 }
 
 @media (max-width: 768px) {
-  #secao-banner {height: 270px;}
-  .secao-texto h1 {font-size: 30px; margin-bottom: 20px;}
+  #secao-banner {height: 270px; border: 2px solid rebeccapurple;}
+  .secao-texto h1 {font-size: 30px; margin-bottom: 20px; border: 2px solid royalblue;}
   .primeiro-paragrafo {
     font-size: 14px;
     font-weight: 450;
     margin-bottom: 15px;
-    
+    border: 2px solid red;
   }
   .segundo-paragrafo {
-    line-height: 20px;
-    margin-bottom: 40px;
+    line-height: 13px;
+    margin-bottom: 30px;
   }
 .assinatura {
   font-family: 'Great Vibes', cursive;
@@ -106,18 +106,13 @@ header button {
 }
 }
 
-
-
 @media (max-width: 425px) {
-  #secao-banner {height: 200px; border: 2px solid rebeccapurple;}
   .secao-texto div{
     padding: 50px 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     text-align: center;
   }
-  .secao-texto h1 {font-size: 15px; margin-bottom: 10px;}
   
 
   .primeiro-paragrafo {

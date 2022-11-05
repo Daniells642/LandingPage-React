@@ -107,17 +107,13 @@ header button {
 }
 
 
-
 @media (max-width: 425px) {
-  #secao-banner {height: 200px; border: 2px solid rebeccapurple;}
   .secao-texto div{
     padding: 50px 10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     text-align: center;
   }
-  .secao-texto h1 {font-size: 15px; margin-bottom: 10px;}
   
 
   .primeiro-paragrafo {
