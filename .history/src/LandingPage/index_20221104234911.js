@@ -16,7 +16,7 @@ export default function Barbearia() {
     <div className={estiloAtualizado ? lightMode : darkMode}>
 
         <header>
-          <div className='limitar-secao secao-topo'>  
+          <div className='limitar-secao'>  
             <img className='logo' src="../../assets/barbearia-logo.png" alt="logo-barbearia" title="logo da barbearia"/>
 
             <button className={estiloAtualizado ? lightMode : darkMode} onClick={alterarCor}>
