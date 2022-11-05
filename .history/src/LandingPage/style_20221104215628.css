@@ -18,6 +18,7 @@ header div {
 .logo {
     width: auto;
     height: 100px;
+    border: yellow solid 2px;
 }
 
 header button {

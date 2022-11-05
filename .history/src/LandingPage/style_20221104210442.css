@@ -1,0 +1,20 @@
+.modo-claro {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo {
+    height: 100px;
+
+}
+.botao {
+    height: 100px;
+}
+#secao-banner {
+    position: relative;
+    background-image: url('../../public/assets/banner-barbearia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }

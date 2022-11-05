@@ -1,0 +1,63 @@
+.modo-claro {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: yellow solid 2px;
+}
+
+.logo img {
+    height: 100px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 20px 20px ;
+    padding: 2px;
+
+}
+
+.botao img {
+    height: 30px;
+    
+}
+
+#secao-banner {
+    position: relative;
+    background-image: url('../../public/assets/banner-barbearia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+
+.secao-texto {
+    background-color: #fff;
+    
+}
+
+.secao-texto h1 {
+    color: black;
+}
+
+.secao-texto p {
+    color: black;
+}
+
+.modificado {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(235, 200, 3, 0.87);
+}

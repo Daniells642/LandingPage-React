@@ -5,8 +5,13 @@
   font-family: 'Poppins', sans-serif; 
 }
 
+body {
+  background-color: black;
+}
+
 .limitar-secao {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
+  border: solid red 2px;
 }

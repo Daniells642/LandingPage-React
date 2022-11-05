@@ -4,9 +4,3 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif; 
 }
-
-.limitar-secao {
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
-}
