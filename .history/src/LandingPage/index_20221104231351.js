@@ -12,14 +12,16 @@ export default function Barbearia() {
   };
 
 
+
+
   return (
-    <div className={estiloAtualizado ? lightMode : darkMode}>
+    <div className='modo-escuro'>
 
         <header id="topo" >
           <div className='limitar-secao'>  
             <img className='logo' src="../../assets/barbearia-logo.png" alt="logo-barbearia" title="logo da barbearia"/>
 
-            <button className={estiloAtualizado ? lightMode : darkMode} onClick={alterarCor}>
+            <button className={estiloAtualizado ? lightMode : darkMode} onClick>
               <img className="btn-icone" src="assets/sun.png" alt="alternar-modo" title="alternar-modo"/>
               Dark
             </button>

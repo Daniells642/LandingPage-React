@@ -12,8 +12,10 @@ export default function Barbearia() {
   };
 
 
+
+
   return (
-    <div className={estiloAtualizado ? lightMode : darkMode}>
+    <div className='modo-escuro'>
 
         <header id="topo" >
           <div className='limitar-secao'>  

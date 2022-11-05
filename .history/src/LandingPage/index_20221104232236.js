@@ -12,6 +12,8 @@ export default function Barbearia() {
   };
 
 
+
+
   return (
     <div className={estiloAtualizado ? lightMode : darkMode}>
 

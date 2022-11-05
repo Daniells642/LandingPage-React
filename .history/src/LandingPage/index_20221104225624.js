@@ -1,27 +1,15 @@
 import './style.css';
-import React, { useState } from 'react';
 
 export default function Barbearia() {
-  const lightMode = "modo-claro";
-  const darkMode = "modo-escuro";
-
-  const [estiloAtualizado, setEstiloAtualizado] = useState(true);
-
-  const alterarCor = () => {
-    setEstiloAtualizado(!estiloAtualizado);
-  };
-
-
   return (
-    <div className={estiloAtualizado ? lightMode : darkMode}>
+    <div className='modo-claro'>
 
         <header id="topo" >
           <div className='limitar-secao'>  
             <img className='logo' src="../../assets/barbearia-logo.png" alt="logo-barbearia" title="logo da barbearia"/>
-
-            <button className={estiloAtualizado ? lightMode : darkMode} onClick={alterarCor}>
+            <button>
               <img className="btn-icone" src="assets/sun.png" alt="alternar-modo" title="alternar-modo"/>
-              Dark
+              <span>Dark</span>
             </button>
           </div>
         </header>
